@@ -103,7 +103,7 @@ function moveDodgerRight() {
     DODGER.style.left = `${right +4}px`
     window.requestAnimationFrame(moveDodgerRight);
   }
-  return;
+  return
 }
 
 /**
